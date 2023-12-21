@@ -2,10 +2,13 @@
 \usepackage{kactlpkg}
 \kactlcontentdir{content}
 
-\university{KTH}{KTH Royal Institute of Technology}{kth}
-\team{Omogen Heap}{Simon Lindholm, Johan Sannemo, Mårten Wiman}
+% \university{KTH}{KTH Royal Institute of Technology}{kth}
+% \team{Omogen Heap}{Simon Lindholm, Johan Sannemo, Mårten Wiman}
+\university{UiB}{University of Bergen}{uib}
+\team{Florida Men}{Magnus Hokland Hegdahl, Samuel Krempaský, Jakob Rødal Skaar}
 % \contest{ACM-ICPC World Finals 2017}{May 24, 2017}
-\contest{\ }{\today}
+% \contest{North-Western Europe Regional Contest}{Soon™}
+\contest{\ }{\ }
 % \enablecolors
 
 \begin{document}
@@ -16,7 +19,9 @@
 	\thispagestyle{fancy}
 	% Table of contents, without subsections:
 	\setcounter{tocdepth}{0}
+	\renewcommand*{\contentsname}{\ }
 	\tableofcontents
+	\thispagestyle{fancy}  % pls?
 
 	\kactlchapter{contest}
 	\kactlchapter{math}

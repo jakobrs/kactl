@@ -222,11 +222,13 @@ def print_header(data, outstream):
         return name if name.startswith('.') else name.split('.')[0]
     output = r"\enspace{}".join(map(adjust, lines[:ind]))
     font_size = 10
-    if header_length > 150:
-        font_size = 8
-    output = r"\hspace{3mm}\textbf{" + output + "}"
+    if header_length > 150 or "OnSegment" in output:
+        font_size = 7
+    dist = 29 if "FastFourierTransformMod" in output else 17 if "OnSegment" in output else 3
+    output = r"\hspace{" + str(dist) + r"mm}\textbf{" + output + "}"
     output = "\\fontsize{%d}{%d}" % (font_size, font_size) + output
     print(output, file=outstream)
+    print(output)
     with open('header.tmp', 'w') as f:
         for line in lines[ind:]:
             f.write(line + "\n")

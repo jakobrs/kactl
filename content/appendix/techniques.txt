@@ -157,3 +157,44 @@ Data structures
 	Monotone queues / monotone stacks / sliding queues
 	Sliding queue using 2 stacks
 	Persistent segment tree
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
+bitset
