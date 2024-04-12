@@ -79,7 +79,7 @@
 \newmarks\hdrmark
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{0pt}
-\headheight 27pt
+\headheight 26pt
 \lhead{\rlap{\raisebox{0.4\height}{\@unilong}}\raisebox{-1.1\height}{\@teamname}}
 \chead{\immediate\write18{python3 content/tex/preprocessor.py --print-header "\splitbotmarks\hdrmark|\botmarks\hdrmark" -o \@builddir/header2.tmp}\immediate\input{\@builddir/header2.tmp}}
 \rhead{\thepage}
